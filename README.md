@@ -45,37 +45,6 @@ This ensures smooth video processing with minimal frame drops.
 
 YOLOv5 provides high-accuracy detection even for moving dashcam videos.
 
----
-
-## 📁 Folder Structure
-
-autonomous-vision/
-│
-├── CMakeLists.txt
-├── README.md
-│
-├── data/
-│ ├── sample_video.mp4
-│ ├── vehicle_yolov5.onnx
-│ └── haarcascade_car.xml
-│
-├── src/
-│ ├── main.cpp
-│ ├── video_pipeline.cpp
-│ ├── lane_detector.cpp
-│ ├── lane_detector.h
-│ ├── vehicle_detector.cpp
-│ ├── vehicle_detector.h
-│ └── utils.cpp
-│
-└── build/
-├── Release/
-│ └── autovision.exe
-
-yaml
-Copy code
-
----
 
 # 📥 Downloads
 
@@ -88,10 +57,6 @@ Download using any YouTube downloader and save as:
 
 data/sample_video.mp4
 
-yaml
-Copy code
-
----
 
 ## 🧠 YOLOv5 ONNX Model  
 Requested download link:
@@ -170,4 +135,7 @@ GPU inference using ONNX Runtime CUDA
 
 👤 Author
 Shalo Sharjan
-C++ Developer | Computer Vision | Embedded Systems
+
+C++ Developer
+Computer Vision
+Embedded Systems
